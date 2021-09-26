@@ -6,13 +6,14 @@ The lazychromosomes package allows quantitative assessment of chromosome segrega
 
 The lazychromosomes package is available on [github](https://github.com/shug3502/lazychromosomes) and can be installed via
 
-    devtools::install_github("shug3502/lazychromosomes")
+    devtools::install_github("shug3502/lazychromosomes",ref="main")
     
 # Usage
 
     library(dplyr)
     library(lazychromosomes)
-    lazychromosomes::kttracks %>% 
+    data(kttracks)
+    kttracks %>% 
       annotate_anaphase_onset_for_cell(method="manual",t_ana_frame=86) %>%
       get_laziness() %>%
       group_by(SisterPairID) %>%
