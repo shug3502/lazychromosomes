@@ -1,0 +1,13 @@
+Package: lazychromosomes
+Type: Package
+Title: Quantitative Evaluation Of Chromosome Laziness From Kinetochore Tracks
+Version: 0.1.0
+Author: c(person("Jonathan", "Harrison", email = "jonathan.u.harrison@warwick.ac.uk", role = c("cre","aut"))
+Description: Assess errors in chromosome segregation quantitatively by computing laziness of segregating chromosomes. The laziness is a statistic that considers the distance of a segregating chromosome from its corresponding daughter cell, scaled by the spread of the cluster.
+License: GLP-3
+Depends:
+    R (>= 3.5.0)
+Imports:
+    dplyr (>= 1.0.0), zoo (>= 1.8.0)
+Encoding: UTF-8
+LazyData: true    
