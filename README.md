@@ -20,5 +20,5 @@ The lazychromosomes package is available on [github](https://github.com/shug3502
       summarise(max_laziness=max(laziness,na.rm=T))
   
 To use with your own data, first track a movie using the kinetochore tracking software [KiT](https://doi.org/10.1093/bioinformatics/btw087) available from [github](https://github.com/cmcb-warwick/KiT)
-Export the tracks as a csv file using ``kitMakeAnalysisTable''. These can be loaded and processed in R using the ``process_jobset'' function.  
+Export the tracks from MATLAB as a csv file using ``kitMakeAnalysisTable``. These tracks can be loaded and processed in R using the ``lazychromosomes::process_jobset`` function.  
 
