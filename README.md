@@ -4,7 +4,7 @@ The lazychromosomes package allows quantitative assessment of chromosome segrega
 
 # Installation
 
-The cowplot package is available on [github](https://github.com/shug3502/lazychromosomes) and can be installed via
+The lazychromosomes package is available on [github](https://github.com/shug3502/lazychromosomes) and can be installed via
 
     devtools::install_github("shug3502/lazychromosomes")
     
